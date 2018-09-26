@@ -56,7 +56,7 @@ php:
      - "5.3"
 
 before_install:
-- php /home/.phpenv/versions/5.4.25/bin/composer.phar self-update
+- php /home/travis/.phpenv/versions/5.4.25/bin/composer.phar self-update
 
 before_script:
      - composer install 
