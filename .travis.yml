@@ -58,7 +58,7 @@ php:
 
 
 before_script:
-     - composer install 
+     - composer install --no-interaction
 
 script:
      phpunit --configuration phpunit.xml --coverage-text
